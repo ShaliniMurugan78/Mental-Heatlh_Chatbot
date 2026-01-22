@@ -18,4 +18,3 @@ spacy-loggers==1.0.5
 sentencepiece
 sacremoses
 
-protobuf==3.20.3
