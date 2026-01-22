@@ -3,6 +3,8 @@ services:
     name: mental-health-chatbot
     env: python
     plan: free
-    pythonVersion: 3.10.13
     buildCommand: bash build.sh
     startCommand: gunicorn app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.18
